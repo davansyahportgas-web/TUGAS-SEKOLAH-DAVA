@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mengenal Internal CSS</title>
+  <style>
+  /* gaya untuk foto */
+      .foto {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+    /* tampilan umum halaman */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.8;
+      margin: 0;
+      padding: 0;
+      background: #f7f8fa;
+      color: #333;
+      
+    }
+    /* Bagian headernya */
+    header {
+      background: linear-gradient(135deg, #4a90e2, #357abd);
+      color: white;
+      padding: 20px;
+      text-align: center;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 26px;
+    }
+    /* Konten utamanya */
+    main {
+      max-width: 800px;
+      background: #fff;
+      margin: 30px auto;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    /* untuk paragrafnya */
+    p {
+      font-size: 16px;
+      text-align: justify;
+    }
+    .highlight {
+      color: #f39c12;
+      font-style: italic;
+      font-weight: bold;
+    }
+    /* Bagian footernya */
+    footer {
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+      background: #eee;
+      font-size: 14px;
+      border-top: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+    <!-- Judul artikelku -->
+  <header>
+    <h1>Pengalaman Saya Bergabung di IKSPI Kera Sakti</h1>
+  </header>
+    <!-- Panggil foto -->
+  <main>
+      <img src="latihaniks.jpg" alt="Foto Latihan IKSPI Kera Sakti" class="foto">
+      <!-- Isi artikelku -->
+    <p>
+      Sejak dulu saya selalu kagum dengan dunia pencak silat. Akhirnya, saya memutuskan untuk ikut bergabung dalam organisasi <i>IKSPI Kera Sakti</i>. Saat pertama kali mengikuti latihan, suasananya begitu berbeda. Kami semua mengenakan seragam hitam khas IKSPI dengan sabuk biru, berlatih bersama-sama dalam semangat persaudaraan.
+
+Di sana, saya tidak hanya belajar gerakan dan jurus silat, tetapi juga belajar tentang disiplin, kekompakan, dan rasa hormat terhadap guru serta sesama anggota. Setiap latihan terasa menyenangkan karena dilakukan bersama teman-teman seperjuangan yang saling mendukung.
+
+Menjadi salah satu anggota <i>IKSPI Kera Sakti</i> membuat saya sangat bahagia. Saya merasa memiliki keluarga baru yang selalu memberi semangat, baik di dalam latihan maupun di luar. Selain fisik yang semakin kuat, saya juga merasakan perubahan dalam sikap dan kepercayaan diri.
+
+Bagi saya, bergabung dengan <i>IKSPI Kera Sakti</i> bukan hanya soal bela diri, tetapi juga perjalanan untuk membentuk diri menjadi pribadi yang lebih baik. Saya bangga bisa menjadi bagian dari organisasi ini, dan saya yakin pengalaman ini akan menjadi bekal berharga dalam hidup saya.
+    </p>
+  </main>
+    <!-- pelengkap/atau hiasan footerku -->
+  <footer>
+    &copy; 2025 Belajar HTML & CSS – Dava
+  </footer>
+
+</body>
+</html>
